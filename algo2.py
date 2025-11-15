@@ -6,7 +6,7 @@ def algo2(l):
         return l
     
     #select a pivot randomly from the list 
-    num = random.randint(1, len(l)-1)
+    num = random.randint(0, len(l)-1)
     pivot = l[num]
     
     
