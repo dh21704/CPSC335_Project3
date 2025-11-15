@@ -22,7 +22,7 @@ def algo2(l):
         else:
             equal_than.append(i)
     
-    return algo2(less_than) + [pivot] + algo2(greater_than)
+    return algo2(less_than) + equal_than + algo2(greater_than)
     
     
     
