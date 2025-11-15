@@ -1,5 +1,5 @@
 def algo1(R, L):
-    r_hash_table = {item: i for i, item in enumerate(R)}
+    r_hash_table = set(R)
     
     intersection_list = []
     
