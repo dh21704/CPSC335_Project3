@@ -1,5 +1,1 @@
-## activity selection
-dfjslk
-
-# here
-
+# Algorithm 1, 
